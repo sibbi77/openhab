@@ -62,6 +62,14 @@ public class EcoTouchBinding extends
 	public void deactivate() {
 	}
 
+	protected void addBindingProvider(EcoTouchBindingProvider bindingProvider) {
+		super.addBindingProvider(bindingProvider);
+	}
+
+	protected void removeBindingProvider(EcoTouchBindingProvider bindingProvider) {
+		super.removeBindingProvider(bindingProvider);
+	}
+
 	/**
 	 * @{inheritDoc
 	 */
